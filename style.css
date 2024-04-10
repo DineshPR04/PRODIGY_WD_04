@@ -1,0 +1,42 @@
+.container {
+    text-align: center;
+    margin-top: 50 px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat (3, 100 px);
+    grid-gap: 5 px;
+    justify-content: center;
+}
+
+.square {
+    width: 100 px;
+    height: 100 px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2 em;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 20 px;
+    font-size: 1.2 em;
+}
+
+.reset-button {
+    margin-top: 20 px;
+    padding: 10 px 20 px;
+    font-size: 1 em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5 px;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #45a049;
+}
